@@ -1,0 +1,921 @@
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. File name from input parameters is:requirements2.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:31:44] "POST /commands?filename=requirements2.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. File name from input parameters is:requirements2.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:32:54] "POST /commands?filename=requirements2.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. File name from input parameters is:requirements2.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:34:50] "POST /commands?filename=requirements2.txt HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:requirements2.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:35:07] "POST /commands?filename=requirements2.txt HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:None
+INFO:root:File name not provided in imput parameters
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:35:29] "POST /commands?filename1=requirements2.txt HTTP/1.1" 400 -
+INFO:root:Post request for Commands called. File name from input parameters is:None
+INFO:root:File name not provided in imput parameters
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:35:57] "POST /commands?filename1=requirements2.txt HTTP/1.1" 400 -
+INFO:root:Post request for Commands called. File name from input parameters is:requirements2.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:36:08] "POST /commands?filename=requirements2.txt HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:requirements.txt
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:36:22] "POST /commands?filename=requirements.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:root:Exception in function get_command_output(): (sqlite3.OperationalError) no such table: commands
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:36:44] "GET /commands HTTP/1.1" 400 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:38:11] "POST /database HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:38:18] "GET /commands HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:requirements.txt
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:38:22] "POST /commands?filename=requirements.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:38:29] "GET /commands HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:40:05] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:40:37] "GET /commands HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:47:19] "GET /commands HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:commands.txt
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:47:25] "POST /commands?filename=commands.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:49:54] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:49:54] "DELETE /database HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:51:42] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:52:04] "POST /database HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 21:53:09] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:05:30] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:05:40] "GET /commands HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. File name from input parameters is:None
+INFO:root:File name not provided in imput parameters
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:05:56] "POST /commands?filename1=commands.txt HTTP/1.1" 400 -
+INFO:root:Post request for Commands called. File name from input parameters is:commands1.txt
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:06:10] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. File name from input parameters is:commands1.txt
+ERROR:root:FileNotFoundError/IOError in method process_commands: place commands1.txt at location /Users/Harshit/Job_Search/cloud_code_challenge-master
+ERROR:root:FileNotFoundError/IOError in method get_valid_commands:2:No such file or directory
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:12:17] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:30:46] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:31:08] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:31:12] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:31:30] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:32:17] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:33:48] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:38:56] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:39:22] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:40:24] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:40:35] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:41:58] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:42:24] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:42:39] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:44:42] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:46:51] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:47:11] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:47:41] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:47:59] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 22:52:36] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:00:18] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:01:08] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:01:28] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:04:03] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:06:53] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:10:34] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:11:15] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:12:25] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:13:11] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:13:25] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:31:38] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:31:46] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:32:02] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:33:27] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:34:02] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:34:28] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:35:20] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:38:12] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:40:39] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:41:26] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:43:11] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:44:13] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:44:46] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:45:18] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:45:39] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:53:28] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:53:43] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [21/Feb/2017 23:56:07] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:04:42] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:05:23] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:06:19] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:06:40] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:08:50] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:09:44] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:10:33] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:11:25] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:11:49] "POST /commands?filename=commands1.txt HTTP/1.1" 500 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:12:22] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:12:36] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:13:21] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:13:44] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:15:21] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:17:27] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:20:58] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:24:59] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:25:38] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:27:37] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:31:15] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:31:28] "POST /database HTTP/1.1" 200 -
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:32:37] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+ERROR:root:Inside get_valid_commands_file_data function. Reading data from Body
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:34:02] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:34:02] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:34:31] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:34:38] "POST /database HTTP/1.1" 200 -
+ERROR:root:Inside get_valid_commands_file_data function. Reading data from Body
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:35:43] "POST /commands?filename=commands1.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:36:32] "GET /commands HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:38:41] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:38:41] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:38:53] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:38:59] "POST /database HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:40:08] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:40:34] "GET /commands HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:48:49] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:49:10] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :lsNot Executed Successfully due to Timeout
+ERROR:root:Command :pwdNot Executed Successfully due to Timeout
+ERROR:root:Command :echo "hello there"Not Executed Successfully due to Timeout
+ERROR:root:Command :grep "ls" commands.txtNot Executed Successfully due to Timeout
+ERROR:root:Command :grep "pwd" commands.txtNot Executed Successfully due to Timeout
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+ERROR:root:Command :psNot Executed Successfully due to Timeout
+ERROR:root:Command :echo ":(){ :|: & };:" > /tmp/mymaliciousFile; chmod 777 /tmp/mymaliciousFile; ./tmp/mymaliciousFileNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:51:28] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:51:42] "GET /commands HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:53:09] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:53:16] "POST /database HTTP/1.1" 200 -
+ERROR:root:Inside get_valid_commands_file_data function. Reading data from Body
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:54:45] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:55:19] "GET /commands HTTP/1.1" 200 -
+INFO:root:Database deletion called
+INFO:root:Database deleted
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:55:28] "DELETE /database HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:56:38] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 00:58:18] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+ERROR:root:Exception in process_command_output: 
+INFO:werkzeug: * Detected change in '/Users/Harshit/Job_Search/cloud_code_challenge-master/command_parser.py', reloading
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+ERROR:root:Exception in process_command_output: 
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Application Started  on port:8080
+INFO:werkzeug: * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:root:Application Started  on port:8080
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 321-831-452
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Exception in process_command_output:
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+ERROR:root:Exception in process_command_output:
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 01:01:08] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Database Schema Created
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 01:01:52] "POST /database HTTP/1.1" 200 -
+INFO:root:Post request for Commands called. Fole_Data not present. File name from input parameters is:commands.txt
+ERROR:root:Command :while true; do echo 'Ctrl c to kill'; sleep 1; doneNot Executed Successfully due to Timeout
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 01:03:00] "POST /commands?filename=commands.txt HTTP/1.1" 200 -
+INFO:root:Get request for Commands Called
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2017 01:03:15] "GET /commands HTTP/1.1" 200 -
